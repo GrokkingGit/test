@@ -1,0 +1,60 @@
+/* Селекторы  в CSS а также правила */
+* {
+text-decoration: none;
+}
+html {
+
+  background: url('https://www.wallpaper-house.com/data/out/8/wallpaper2you_256816.jpg');
+
+
+}
+#header {color:red;}
+#header_1{color: green;}
+h3.style{color: yellow;}
+p.style{background-color:blue;}
+p i{
+  color: #ca5597;
+}
+p.Example,b {
+  font-size: 30px;
+  font-weight: normal;
+}
+/*Псевдоклассы и псевдоэлементы в  CSS*/
+
+
+P#example:first-letter{
+  color: red;
+}
+
+P#example:first-letter{
+  color: red;
+}
+
+
+p:hover {background-color: red}
+p:active {background-color: green}
+
+.href:hover {
+color: #1d5e19;
+
+}
+.href :active{
+  color: #2b4de3;
+}
+.href:visited {
+  color: #e32c8a;
+}
+#textStyles:hover{
+background-color: #ddeea5;
+}
+p{
+  text-indent: 1.1em;
+}
+#textStyles {
+  font-size: 1.1em;
+  font-weight: normal;
+  font-family: comic sanc mc,sans-serif;
+  text-align: center;
+  text-transform: ;
+  l-spacing: 10px;
+}
